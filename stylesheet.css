@@ -1,0 +1,131 @@
+:root {
+    --primary-color: rgb(208, 229, 245);
+    --background-color: rgba(157, 179, 197, 0.75);
+    --font-color: rgb(129, 225, 241);
+}
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: var(--background-color);
+    color: var(--font-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: var(--primary-color);
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+header h1 {
+    font-weight: bold;
+    color: var(--font-color);
+    margin: 0;
+}
+
+header h1 a {
+    padding: 10px;
+}
+
+header h1 a:hover {
+    color: var(--primary-color);
+    background: var(--background-color);
+    border-radius: 30px;
+}
+
+header nav {
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    position: relative;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+header nav ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+
+header nav ul li a {
+    padding: 10px;
+    font-size: 1.55vw;
+}
+
+header nav ul li a:hover {
+    background: var(--background-color);
+    color: var(--primary-color);
+    border-radius: 20px;
+    text-shadow: none;
+}
+
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:visited {
+    color: var(--font-color);
+}
+
+.hero {
+    padding: 200px 0 300px 0;
+    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80);
+    background-size: cover;
+    background-position: center;
+}
+
+h2 {
+    color: var(--font-color);
+    font-size: 30px;
+}
+
+.hero h2 {
+    position: relative;
+    top: -150px;
+    text-align: center;
+}
+
+textarea, input, button {
+    font-family: inherit;
+    font-size: inherit;
+}
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    background-color: var(--primary-color);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+footer div a {
+    display: inline-block;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
