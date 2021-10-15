@@ -49,6 +49,7 @@ p {
 
 
 /* START header */
+
 header {
     display: flex;
     flex-wrap: wrap;
@@ -109,10 +110,12 @@ header nav ul li a:hover {
     border-radius: 20px;
     text-shadow: none;
 }
+
 /* END header */
 
 
 /* START .hero */
+
 .hero img{
     display: block;
     margin-left: auto;
@@ -131,10 +134,12 @@ h2 {
     top: -170px;
     text-align: center;
 }
+
 /* END .hero */
 
 
 /* START #about-me */
+
 .content {
     background-color: var(--alt-background-color);
 }
@@ -155,29 +160,29 @@ h2 {
     width: 300px;
 }
 
-#about-me 
-
 /* END #about-me */
 
 
 /* START #my-work */
+
 #my-work {
     background-color: var(--background-color);
     margin: 20px 0 20px 0;
 }
 
-
-
 /* END #my-work */
 
 
 /* START #contact */
+
 textarea, input, button {
     font-family: inherit;
     font-size: inherit;
 }
+
 /* END #contact */
 
+/* START footer */
 
 footer {
     display: flex;
@@ -195,3 +200,12 @@ footer div a {
     top: 50%;
     transform: translateY(-50%);
 }
+
+/* END footer */
+
+
+/* START media queries */
+
+
+
+/* END media queries */
