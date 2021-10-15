@@ -51,6 +51,7 @@ p {
 /* START header */
 
 header {
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -158,16 +159,38 @@ h2 {
     margin: 20px;
     height: 400px;
     width: 300px;
+    border-radius: 25px;
 }
 
 /* END #about-me */
 
 
-/* START #my-work */
+/* START .my-work */
 
-#my-work {
+.my-work {
     background-color: var(--background-color);
     margin: 20px 0 20px 0;
+}
+
+.my-work div {
+    display: flex;
+    justify-content: center;
+}
+
+.my-work div a img {
+    align-content: center;
+    vertical-align: middle;
+    width: 500px;
+    height: auto;
+    margin: 20px;
+    border-radius: 20px;
+}
+
+.my-work div a img:hover {
+    margin: 50px;
+    width: 600px;
+    height: auto;
+    transition: width 0.3s, height 0.3s;
 }
 
 /* END #my-work */
@@ -175,9 +198,66 @@ h2 {
 
 /* START #contact */
 
+#contact {
+    padding: 0 0 5px 0;
+}
+
 textarea, input, button {
     font-family: inherit;
     font-size: inherit;
+    color: var(--font-color);
+    background-color: var(--primary-color);
+    border: 2px solid var(--font-color);
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: normal;
+}
+
+form {
+    width: 40%;
+    height: auto;
+    border: 2px solid var(--font-color);
+    border-radius: 15px;
+    padding: 10px;
+    margin: 0 auto 20px auto;
+}
+
+.inputs {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact-info {
+    display: inline-block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+button {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px 25px;
+    margin: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea:focus, input:focus {
+    border: inherit;
+}
+
+label {
+    font-size: 20px;
+}
+
+textarea {
+    height: 100px;
+    width: 200px;
+}
+
+.firstAndLastName input {
+    color: var(--font-color);
 }
 
 /* END #contact */
@@ -201,11 +281,29 @@ footer div a {
     transform: translateY(-50%);
 }
 
+footer div a img {
+    width: 50px;
+    height: auto;
+}
+
 /* END footer */
 
 
 /* START media queries */
+/* smaller desktop screens */
+@media screen and (max-width: 980px) {
 
+}
+
+/* tablets */
+@media screen and (max-width: 768px) {
+    
+}
+
+/* phones */
+@media screen and (max-width: 575px) {
+    
+}
 
 
 /* END media queries */

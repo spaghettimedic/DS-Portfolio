@@ -41,19 +41,17 @@
                 </p>
             </article>
 
-            <div id="my-work">
+            <div class="my-work" id="my-work">
                 <h2>My Work</h2>
                 <hr>
                 <br>
                 <p>
                     Feel free to explore these projects that I've worked on.
                 </p>
-                <div class="horiseon">
-
-                </div>
-                <div class="run-buddy">
-
-                </div>
+                    <div>
+                        <a href="http://spaghettimedic.github.io/challenge-01-horiseon/"><img src="./assets/images/horiseon.png" alt=""></a>
+                        <a href="https://spaghettimedic.github.io/run-buddy/"><img src="./assets/images/run-buddy.png" alt=""></a>
+                    </div>
             </div>
 
             <div id="contact">
@@ -63,18 +61,24 @@
                     If you'd like to contact me regarding a project that I can help you with, please reach out to me using the following form.
                 </p>
                 <form>
-                    <label for="first-name">First Name</label> <br>
-                    <input type="text" id="first-name" placeholder="First Name" />
-
-                    <br>
-
-                    <label for="last-name">Last Name</label> <br>
-                    <input type="text" id="last-name" placeholder="Last Name" />
-
-                    <br>
-
-                    <label for="contact-message">Contact Message</label> <br>
-                    <textarea id="contact-message" placeholder="Type your message here..."></textarea>
+                    <div class="inputs">
+                        <div class="contact-info">
+                            <label for="first-name">First Name</label>
+                            <br>
+                            <input type="text" id="first-name" placeholder="First Name" />
+                            <br>
+                            
+                            <label for="last-name">Last Name</label>
+                            <br>
+                            <input type="text" id="last-name" placeholder="Last Name" />
+                        </div>
+                        <div class="contact-info">
+                            <label for="contact-message">Contact Message</label>
+                            <br>
+                            <textarea placeholder="Type your message here..."></textarea>
+                        </div>
+                    </div>
+                    <button for="contact-message">Submit</button>
                 </form>
             </div>
         </section>
@@ -82,8 +86,8 @@
         <footer>
             <h2>Created with care by David Steiner</h2>
             <div>
-                <a href="https://www.twitter.com"><img src="" alt="">~Twitter Logo~</a>
-                <a href="https://www.linkedin.com"><img src="" alt="">~Linked-In Logo~</a>
+                <a href="https://www.twitter.com"><img src="./assets/images/twitter icon.png" alt=""></a>
+                <a href="https://www.linkedin.com"><img src="./assets/images/linkedin.png" alt=""></a>
             </div>
         </footer>
 
