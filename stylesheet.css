@@ -1,7 +1,8 @@
 :root {
     --primary-color: rgb(208, 229, 245);
     --background-color: rgba(157, 179, 197, 0.75);
-    --font-color: rgb(129, 225, 241);
+    --alt-background-color: rgba(204, 208, 211, 0.75);
+    --font-color: rgb(4, 100, 117);
 }
 
 * {
@@ -20,6 +21,34 @@ h1 {
     font-size: 40px;
 }
 
+a {
+    text-decoration: none;
+    color: var(--font-color);
+}
+
+a:visited {
+    color: var(--font-color);
+}
+
+hr {
+    border: var(--font-color);
+    border-radius: 2.5px;
+    height: 5px;
+    width: 25%;
+    margin: auto;
+    background-color: var(--font-color);
+}
+
+p {
+    font-size: 25px;
+    margin: 20px;
+    vertical-align: middle;
+    line-height: normal;
+    text-align: center;
+}
+
+
+/* START header */
 header {
     display: flex;
     flex-wrap: wrap;
@@ -80,38 +109,75 @@ header nav ul li a:hover {
     border-radius: 20px;
     text-shadow: none;
 }
+/* END header */
 
-a {
-    text-decoration: none;
-    color: var(--font-color);
-}
 
-a:visited {
-    color: var(--font-color);
-}
-
-.hero {
-    padding: 200px 0 300px 0;
-    background-image: url(https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=872&q=80);
-    background-size: cover;
-    background-position: center;
+/* START .hero */
+.hero img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 600px;
+    width: 60%;
 }
 
 h2 {
     color: var(--font-color);
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .hero h2 {
     position: relative;
-    top: -150px;
+    top: -170px;
+    text-align: center;
+}
+/* END .hero */
+
+
+/* START #about-me */
+.content {
+    background-color: var(--alt-background-color);
+}
+
+#about-me {
+    display: flex;
+    align-items: center;
+}
+
+.content h2 {
     text-align: center;
 }
 
+#about-me img {
+    float: left;
+    margin: 20px;
+    height: 400px;
+    width: 300px;
+}
+
+#about-me 
+
+/* END #about-me */
+
+
+/* START #my-work */
+#my-work {
+    background-color: var(--background-color);
+    margin: 20px 0 20px 0;
+}
+
+
+
+/* END #my-work */
+
+
+/* START #contact */
 textarea, input, button {
     font-family: inherit;
     font-size: inherit;
 }
+/* END #contact */
+
 
 footer {
     display: flex;
