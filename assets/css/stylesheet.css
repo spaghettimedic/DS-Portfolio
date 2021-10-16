@@ -241,6 +241,7 @@ form {
 
 .contact-info {
     height: 125px;
+    width: auto;
 }
 
 button {
@@ -339,6 +340,7 @@ footer div a img {
 
     form {
         width: 75%;
+        height: auto;
     }
 }
 
@@ -370,7 +372,12 @@ footer div a img {
     }
 
     form {
-        width: 75%;
+        width: 100%;
+    }
+
+    .contact-info {
+        width: 50%;
+        height: auto;
     }
 
     footer {
@@ -424,12 +431,25 @@ footer div a img {
         margin-bottom: 0;
     }
 
+    .my-work div a img {
+        width: 75%;
+        height: auto;
+    }
+
+    .my-work div a img:hover {
+        width: 100%;
+    }
+
     form {
         width: 100%;
     }
 
     .contact-info {
         width: 50%;
+    }
+
+    label, input, textarea {
+        font-size: 15px;
     }
 }
 
