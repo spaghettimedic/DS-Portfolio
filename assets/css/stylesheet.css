@@ -9,6 +9,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    scroll-padding-top: 89px;
 }
 
 body {
@@ -32,7 +33,7 @@ a:visited {
 
 h2 {
     text-align: center;
-    margin-top: 20px;
+    padding-top: 20px;
 }
 
 hr {
@@ -343,6 +344,10 @@ footer div a img {
 
 /* tablets */
 @media screen and (max-width: 768px) {
+    header nav ul li {
+        margin: 0;
+    }
+
     header nav ul li a {
         font-size: x-large;
     }
@@ -376,6 +381,10 @@ footer div a img {
 /* phones */
 @media screen and (max-width: 575px) {
 
+    * {
+        scroll-padding-top: 64px;
+    }
+
     .hero img {
         width: 100%;
         height: auto;
@@ -383,6 +392,10 @@ footer div a img {
 
     h1 {
         font-size: 20px;
+    }
+
+    header nav ul li {
+        margin: 0;
     }
 
     header nav ul li a {
@@ -413,6 +426,10 @@ footer div a img {
 
     form {
         width: 100%;
+    }
+
+    .contact-info {
+        width: 50%;
     }
 }
 
