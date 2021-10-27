@@ -173,6 +173,7 @@ header nav ul li a:hover {
 
 .my-work div {
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
@@ -182,7 +183,6 @@ header nav ul li a:hover {
 
 .my-work div a img {
     align-content: center;
-    vertical-align: middle;
     width: 500px;
     height: auto;
     margin: 20px;
