@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import Header from './components/Header';
+import Nav from './components/Nav';
 import Footer from './components/Footer';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
@@ -10,19 +10,19 @@ function App() {
   const [sections] = useState([
     {
       name: 'about',
-      description: 'A short bio on David'
+      description: 'A short bio on David:'
     },
     {
       name: 'portfolio',
-      description: `David's projects and deployed applications`
+      description: `David's projects and deployed applications:`
     },
     {
       name: 'resume',
-      description: `See David's qualifications`
+      description: `See David's qualifications:`
     },
     {
       name: 'contact',
-      description: 'Get in touch with David regarding his projects or prospective work'
+      description: 'Get in touch with David regarding his projects or prospective work with this contact form:'
     }
   ]);
 
@@ -43,9 +43,14 @@ function App() {
 
   return (
     <div>
-      <Header />
+      <Nav
+      sections={sections}
+      setCurrentSection={setCurrentSection}
+      currentSection={currentSection}
+      >
+      </Nav>
       <main>
-        {renderSection(currentSection)}
+        {renderSection(currentSection.name)}
       </main>
       <Footer />
     </div>
