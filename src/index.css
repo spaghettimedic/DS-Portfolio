@@ -124,6 +124,7 @@ header a:hover {
 section {
   margin: 0;
   height: 100%;
+  width: 100%;
   background-image: linear-gradient(180deg, var(--primary) 0%, var(--light) 20%, var(--quaternary) 40%, var(--light) 60%, var(--primary) 100%);
   text-align: center;
 }
@@ -168,16 +169,8 @@ footer {
   5px -5px 10px var(--secondary);
 }
 
-button {
-  font-size: 1rem;
-  text-decoration: none;
-  padding: 0.25rem 1rem;
-  border-radius: .5rem;
-  border: none;
-  outline: none;
-  cursor: pointer;
-  margin: 0 1px;
-  background-color: var(--secondary);
+label {
+  color: var(--secondary);
 }
 
 button:hover {
@@ -201,13 +194,9 @@ span:hover {
   color: var(--secondary);
 }
 
-form {
-  width: 40%;
-}
-
 input {
   font-size: 1rem;
-  padding: 0.25rem;
+  margin: 10px auto;
   border: 1px solid var(--dark);
   outline: none;
   border-radius: 3px;
@@ -253,7 +242,9 @@ textarea {
 	width: 600px;
 	height: 120px;
 	border: 3px solid #cccccc;
+  border-radius: 3px;
 	padding: 5px;
+  margin: 10px auto;
 }
 
 .container {
@@ -276,14 +267,10 @@ textarea {
   justify-content: flex-end;
 }
 
-.mx-1 {
-  margin-right: var(--spacing-one);
-  margin-left: var(--spacing-one);
-}
-
-.mx-2 {
-  margin-right: var(--spacing-two);
-  margin-left: var(--spacing-two);
+.form {
+  width: 50%;
+  padding: 50px 20px;
+  margin: 0 auto;
 }
 
 .my-1 {
@@ -326,13 +313,6 @@ textarea {
   text-align: center;
 }
 
-.img-thumbnail {
-  width: auto;
-  height: 300px;
-  margin-bottom: 50px;
-  cursor: pointer;
-}
-
 button {
 	background: var(--primary);
 	border: 0;
@@ -342,7 +322,7 @@ button {
 	font-size: 16px;
 	font-weight: 600;
 	margin-bottom: 30px;
-	padding: 10px 15px;	
+	padding: 10px 15px;
 }
 
 .navActive {
