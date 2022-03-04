@@ -224,6 +224,11 @@ li {
   margin: 0 10px;
 }
 
+article ul li {
+  list-style:inside;
+  padding: 10px 0;
+}
+
 nav a:hover {
   text-decoration: none;
   color: var(--secondary);
