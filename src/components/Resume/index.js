@@ -18,7 +18,7 @@ function Resume() {
           <li>OOP, ORM, TDD, MVC</li>
           <li>SQL, Sequelize, Insomnia</li>
           <li>NoSQL, GraphQl, MongoDB, Mongoose</li>
-          <li>Progressive Web Applications</li>
+          <li>PWAs and SPAs</li>
         </ul>
       </article>
     </section>
