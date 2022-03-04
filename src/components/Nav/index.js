@@ -13,16 +13,16 @@ function Nav(props) {
   }, [currentSection]);
 
   return (
-    <header className="flex-row px-1">
+    <header className="flex-row justify-content-between">
       <h2>
         <a href="/portfolio/">
           David Steiner
         </a>
       </h2>
-      <nav>
+      <nav className="navbar">
         <ul className="flex-row">
           {sections.map((section) => (
-            <li className={`mx-1 ${currentSection.name === section.name && 'navActive'}`} key={section.name}>
+            <li className={`mx-auto my-auto px-2 ${currentSection.name === section.name && 'navActive'}`} key={section.name}>
               <span onClick={() => { setCurrentSection(section); }}>
                 {capitalizeFirstLetter(section.name)}
               </span>
