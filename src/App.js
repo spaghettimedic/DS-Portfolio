@@ -33,11 +33,13 @@ function App() {
       case 'about':
         return <About />;
       case 'portfolio':
-        return <Portfolio />
+        return <Portfolio />;
       case 'resume':
-        return <Resume />
+        return <Resume />;
       case 'contact':
-        return <Contact />
+        return <Contact />;
+      default:
+        return <About />;
     }
   };
 
