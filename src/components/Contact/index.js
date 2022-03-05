@@ -34,7 +34,7 @@ function Contact() {
   };
 
   return (
-    <section>
+    <div className="contact-wrapper">
       <h3>Contact me</h3>
       <div className="responsive">
         <div id="contact-form" className="row form" onSubmit={handleSubmit}>
@@ -54,7 +54,7 @@ function Contact() {
         </div>
       </div>
       <br/><br/><br/>
-    </section>
+    </div>
   )
 };
 
