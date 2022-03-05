@@ -15,7 +15,7 @@ function Nav(props) {
   return (
     <header className="flex-row justify-content-between">
       <h2>
-        <a href="/portfolio/">
+        <a href="/DS-Portfolio/">
           David Steiner
         </a>
       </h2>
