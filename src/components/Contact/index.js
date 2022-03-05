@@ -36,7 +36,7 @@ function Contact() {
   return (
     <section>
       <h3>Contact me</h3>
-      <div>
+      <div className="responsive">
         <div id="contact-form" className="row form" onSubmit={handleSubmit}>
           <div className="col">
             <input type="text" name="name" placeholder="Name" className="form-control" defaultValue={name} onBlur={handleChange} />

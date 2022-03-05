@@ -37,6 +37,8 @@ body {
 header {
   position: sticky;
   top: 0;
+  background: var(--primary);
+  padding: 10px 5px;
 }
 
 h1,
@@ -98,17 +100,12 @@ a:hover {
 article {
   color: var(--secondary);
   margin: 0 100px;
-  padding-bottom: 100px;
+  padding-bottom: 50px;
 }
 
 ul {
   margin: auto;
   padding: auto;
-}
-
-header {
-  background: var(--primary);
-  padding: 10px 5px;
 }
 
 header a {
@@ -149,7 +146,7 @@ footer {
 }
 
 .project {
-  height: 175px;
+  height: 200px;
   margin: 20px 20px;
   padding: 20px 20px 40px 20px;
   text-align: center;
@@ -327,4 +324,44 @@ button {
 
 .navActive {
   color: var(--secondary);
+}
+
+/* for phones */
+@media screen and (max-width: 768px) {
+  header {
+    display: flex;
+  }
+
+  nav {
+    justify-content: space-between;
+  }
+
+  h2 {
+    margin: 10px auto;
+  }
+
+  ul {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+  }
+
+  article {
+    padding: 0;
+    margin: 0 10px;
+  }
+
+  article ul {
+    display: block;
+  }
+
+  .form {
+    width: 100%;
+    margin: 0;
+  }
+
+  .responsive {
+    display: flex;
+    justify-content: center;
+  }
 }
