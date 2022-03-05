@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/DS-Portfolio/static/css/main.ee001057.css",
-    "main.js": "/DS-Portfolio/static/js/main.8a11e59e.js",
+    "main.css": "/DS-Portfolio/static/css/main.aa5a0cfd.css",
+    "main.js": "/DS-Portfolio/static/js/main.a6ed7957.js",
     "static/js/787.1ed0c42c.chunk.js": "/DS-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sitStay.png": "/DS-Portfolio/static/media/sitStay.e64d5afd9027ea4cd291.png",
     "static/media/David.jpg": "/DS-Portfolio/static/media/David.c79081a7e9605fdff7f3.jpg",
@@ -21,12 +21,12 @@
     "static/media/noteTaker.png": "/DS-Portfolio/static/media/noteTaker.2ff9efc323d7570cd7e6.png",
     "static/media/twitter.png": "/DS-Portfolio/static/media/twitter.57573394db94634d7e1f.png",
     "index.html": "/DS-Portfolio/index.html",
-    "main.ee001057.css.map": "/DS-Portfolio/static/css/main.ee001057.css.map",
-    "main.8a11e59e.js.map": "/DS-Portfolio/static/js/main.8a11e59e.js.map",
+    "main.aa5a0cfd.css.map": "/DS-Portfolio/static/css/main.aa5a0cfd.css.map",
+    "main.a6ed7957.js.map": "/DS-Portfolio/static/js/main.a6ed7957.js.map",
     "787.1ed0c42c.chunk.js.map": "/DS-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ee001057.css",
-    "static/js/main.8a11e59e.js"
+    "static/css/main.aa5a0cfd.css",
+    "static/js/main.a6ed7957.js"
   ]
 }
