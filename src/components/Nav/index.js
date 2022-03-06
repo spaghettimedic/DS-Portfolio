@@ -13,7 +13,7 @@ function Nav(props) {
   }, [currentSection]);
 
   return (
-    <header className="flex-row justify-content-between">
+    <header className="flex-row">
       <h2>
         <a href="/DS-Portfolio/">
           David Steiner
