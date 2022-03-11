@@ -4,7 +4,7 @@ function Resume() {
   return(
     <section>
       <br/>
-      <h3><a href="/assets/Resume.pdf" download>Download a copy of my resume here.</a></h3>
+      <h3><a href="./assets/Resume.pdf" download>Download a copy of my resume here.</a></h3>
       <br/>
       <article>
         <ul>
