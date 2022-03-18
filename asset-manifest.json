@@ -1,9 +1,10 @@
 {
   "files": {
     "main.css": "/DS-Portfolio/static/css/main.c972d943.css",
-    "main.js": "/DS-Portfolio/static/js/main.dfa51b52.js",
+    "main.js": "/DS-Portfolio/static/js/main.2c15be05.js",
     "static/js/787.1ed0c42c.chunk.js": "/DS-Portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/sitStay.png": "/DS-Portfolio/static/media/sitStay.e64d5afd9027ea4cd291.png",
+    "static/media/couchTomatoes.png": "/DS-Portfolio/static/media/couchTomatoes.07157e158c15c5f35efb.png",
     "static/media/David.jpg": "/DS-Portfolio/static/media/David.c79081a7e9605fdff7f3.jpg",
     "static/media/weatherDashboard.png": "/DS-Portfolio/static/media/weatherDashboard.88b733a71137c8c3f18f.png",
     "static/media/READMEGenerator.png": "/DS-Portfolio/static/media/READMEGenerator.49534af97dc5dd0ef387.png",
@@ -22,11 +23,11 @@
     "static/media/twitter.png": "/DS-Portfolio/static/media/twitter.57573394db94634d7e1f.png",
     "index.html": "/DS-Portfolio/index.html",
     "main.c972d943.css.map": "/DS-Portfolio/static/css/main.c972d943.css.map",
-    "main.dfa51b52.js.map": "/DS-Portfolio/static/js/main.dfa51b52.js.map",
+    "main.2c15be05.js.map": "/DS-Portfolio/static/js/main.2c15be05.js.map",
     "787.1ed0c42c.chunk.js.map": "/DS-Portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c972d943.css",
-    "static/js/main.dfa51b52.js"
+    "static/js/main.2c15be05.js"
   ]
 }
