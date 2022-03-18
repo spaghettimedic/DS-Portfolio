@@ -106,13 +106,19 @@ function Project() {
       href: 'https://spaghettimedic-budget-tracker.herokuapp.com/',
       github: 'https://www.github.com/spaghettimedic/budgetTracker',
       alt: 'A visual representation of money spent and earned with persistent data.'
+    },
+    {
+      name: 'Couch Tomatoes',
+      src: 'couchTomatoes',
+      href: 'https://couch-tomatoes.herokuapp.com/',
+      github: 'https://github.com/johnsiefert/Couch-Tomatoes',
+      alt: 'Social media meets Rotten Tomatoes!'
     }
   ]);
 
   return (
     <div className="project-container">
       <div className="flex-row justify-content-center">
-        {console.log(projects)}
         {projects.map(project => (
           <div className="project">
             <a href={project.href} target="_blank">
