@@ -51,7 +51,7 @@ function App() {
       currentSection={currentSection}
       >
       </Nav>
-      <section>
+      <section className="main-section">
         {renderSection(currentSection.name)}
       </section>
       <Footer />
