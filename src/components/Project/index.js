@@ -16,13 +16,13 @@ function Project() {
       github: 'https://www.github.com/spaghettimedic/codingQuiz',
       alt: 'A short quiz on basic coding concepts made with javascript.'
     },
-    // {
-    //   name: 'Workday Scheduler',
-    //   src: 'workDayScheduler',
-    //   href: 'https://spaghettimedic.github.io/workDayScheduler/',
-    //   github: 'https://www.github.com/spaghettimedic/workDayScheduler',
-    //   alt: 'An organizational application for managing your work day by the hour.'
-    // },
+    {
+      name: 'Workday Scheduler',
+      src: 'workDayScheduler',
+      href: 'https://spaghettimedic.github.io/workDayScheduler/',
+      github: 'https://www.github.com/spaghettimedic/workDayScheduler',
+      alt: 'An organizational application for managing your work day by the hour.'
+    },
     {
       name: 'Weather Dashboard',
       src: 'weatherDashboard',
@@ -58,13 +58,13 @@ function Project() {
       github: 'https://www.github.com/spaghettimedic/noteTaker',
       alt: 'A note-taking application with persistent data.'
     },
-    // {
-    //   name: 'Employee Tracker',
-    //   src: 'employeeTracker',
-    //   href: 'https://www.github.com/spaghettimedic/employeeTracker',
-    //   github: 'https://www.github.com/spaghettimedic/employeeTracker',
-    //   alt: 'A command line application for organizing employees in a database.'
-    // },
+    {
+      name: 'Employee Tracker',
+      src: 'employeeTracker',
+      href: 'https://www.github.com/spaghettimedic/employeeTracker',
+      github: 'https://www.github.com/spaghettimedic/employeeTracker',
+      alt: 'A command line application for organizing employees in a database.'
+    },
     // {
     //   name: 'E-commerce backend',
     //   src: 'eCommerce',
@@ -86,13 +86,13 @@ function Project() {
     //   github: 'https://www.github.com/spaghettimedic/fuzzy-octo-doodle',
     //   alt: 'A blog-style website to connect pet owners with pet sitters.'
     // },
-    // {
-    //   name: 'Regex Tutorial',
-    //   src: 'regex',
-    //   href: 'https://gist.github.com/spaghettimedic/4db137c75fb958eb42272fc2dd5f5eeb',
-    //   github: 'https://gist.github.com/spaghettimedic/4db137c75fb958eb42272fc2dd5f5eeb',
-    //   alt: 'A Github gist describing regular expressions.'
-    // },
+    {
+      name: 'Regex Tutorial',
+      src: 'regex',
+      href: 'https://gist.github.com/spaghettimedic/4db137c75fb958eb42272fc2dd5f5eeb',
+      github: 'https://gist.github.com/spaghettimedic/4db137c75fb958eb42272fc2dd5f5eeb',
+      alt: 'A Github gist describing regular expressions.'
+    },
     // {
     //   name: 'thinkr',
     //   src: 'thinkr',
